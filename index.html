@@ -1,38 +1,45 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="vi">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>MẮT KÍNH BV ĐIỆN BIÊN PHỦ</title>
 <style>
-body{font-family:Arial,sans-serif;margin:0;background:#f5f5f5}
-header{background:#6a1b9a;color:#fff;padding:20px;text-align:center}
-section{padding:20px}
-.card{background:#fff;padding:15px;border-radius:10px;margin-bottom:15px}
-.btn{display:inline-block;padding:10px 18px;background:#6a1b9a;color:#fff;text-decoration:none;border-radius:6px}
+body{font-family:Arial,sans-serif;margin:0;background:#f4f4f4;color:#333}
+header{background:#6a1b9a;color:#fff;padding:24px;text-align:center}
+.container{max-width:900px;margin:auto;padding:20px}
+.card{background:#fff;border-radius:10px;padding:18px;margin:15px 0;box-shadow:0 2px 6px rgba(0,0,0,.1)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:15px}
+.btn{display:inline-block;background:#6a1b9a;color:#fff;padding:10px 16px;text-decoration:none;border-radius:6px;margin:5px}
 footer{background:#222;color:#fff;text-align:center;padding:15px}
 </style>
 </head>
 <body>
-
 <header>
 <h1>MẮT KÍNH BV ĐIỆN BIÊN PHỦ</h1>
-<p>Gọng kính - Tròng kính - Đo mắt - Tư vấn</p>
+<p>Gọng kính • Tròng kính • Đo mắt • Tư vấn</p>
 </header>
-
-<section>
+<div class="container">
 <div class="card">
 <h2>Giới thiệu</h2>
-<p>Địa chỉ: Chợ Cái Ngang, xã Cái Ngang, Vĩnh Long</p>
-<p>Chủ cửa hàng: Lại Thế Xuân</p>
-<p>Điện thoại: 0944282333</p>
+<p><b>Địa chỉ:</b> Chợ Cái Ngang, Vĩnh Long</p>
+<p><b>Chủ cửa hàng:</b> Lại Thế Xuân</p>
+<p><b>Điện thoại:</b> 0944282333</p>
 <a class="btn" href="tel:0944282333">Gọi ngay</a>
 </div>
-</section>
-
-<footer>
-© 2026 MẮT KÍNH BV ĐIỆN BIÊN PHỦ
-</footer>
-
-</body>
-</html>
+<div class="card">
+<h2>Sản phẩm</h2>
+<div class="grid">
+<div class="card"><h3>Gọng kính</h3><p>Nhiều mẫu thời trang.</p></div>
+<div class="card"><h3>Tròng kính</h3><p>Chống ánh sáng xanh, đổi màu.</p></div>
+<div class="card"><h3>Kính mát</h3><p>Chính hãng.</p></div>
+</div>
+</div>
+<div class="card">
+<h2>Liên hệ</h2>
+<a class="btn" href="https://zalo.me/">Zalo</a>
+<a class="btn" href="https://facebook.com/">Facebook</a>
+</div>
+</div>
+<footer>© 2026 MẮT KÍNH BV ĐIỆN BIÊN PHỦ</footer>
+</body></html>
