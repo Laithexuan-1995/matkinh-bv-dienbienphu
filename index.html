@@ -1,87 +1,88 @@
-/* =====================================
-   MẮT KÍNH BV ĐIỆN BIÊN PHỦ
-   Version 1.0
-===================================== */
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MẮT KÍNH BV ĐIỆN BIÊN PHỦ</title>
 
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Arial,Helvetica,sans-serif;
-}
+    <link rel="stylesheet" href="css/style.css">
+</head>
 
-body{
-    background:#f6f7fb;
-    color:#333;
-    line-height:1.6;
-}
+<body>
 
-header{
-    background:#6a1b9a;
-    color:#fff;
-    padding:18px;
-    text-align:center;
-    position:sticky;
-    top:0;
-    z-index:999;
-    box-shadow:0 3px 8px rgba(0,0,0,.15);
-}
+<header>
+    <h1>👓 MẮT KÍNH BV ĐIỆN BIÊN PHỦ</h1>
+    <p>Đo mắt - Cắt kính - Tròng kính chính hãng</p>
 
-header h1{
-    font-size:26px;
-}
+    <nav>
+        <a href="#">Trang chủ</a>
+        <a href="#">Sản phẩm</a>
+        <a href="#">Dịch vụ</a>
+        <a href="#">Đặt lịch</a>
+        <a href="#">Liên hệ</a>
+    </nav>
+</header>
 
-header p{
-    margin-top:8px;
-    font-size:15px;
-}
+<section class="hero">
 
-nav{
-    margin-top:15px;
-}
+    <h2>Chào mừng đến với MẮT KÍNH BV ĐIỆN BIÊN PHỦ</h2>
 
-nav a{
-    color:white;
-    text-decoration:none;
-    margin:0 10px;
-    font-weight:bold;
-    transition:.3s;
-}
+    <p>
+        Chuyên đo mắt, cắt kính cận, loạn, viễn,
+        kính đổi màu, chống ánh sáng xanh,
+        tròng kính chính hãng với giá hợp lý.
+    </p>
 
-nav a:hover{
-    color:#ffd54f;
-}
+    <a href="#" class="btn">
+        Đặt lịch đo mắt
+    </a>
 
-.hero{
-    background:linear-gradient(135deg,#7b1fa2,#512da8);
-    color:white;
-    padding:60px 20px;
-    text-align:center;
-}
+</section>
 
-.hero h2{
-    font-size:34px;
-    margin-bottom:15px;
-}
+<section style="padding:40px 20px;">
 
-.hero p{
-    font-size:18px;
-    max-width:700px;
-    margin:auto;
-}
+<h2 style="text-align:center;margin-bottom:30px;">
+Sản phẩm nổi bật
+</h2>
 
-.btn{
-    display:inline-block;
-    margin-top:25px;
-    background:#ff9800;
-    color:white;
-    padding:14px 28px;
-    border-radius:8px;
-    text-decoration:none;
-    font-weight:bold;
-    transition:.3s;
-}
+<div style="display:grid;
+grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+gap:20px;">
 
-.btn:hover{
-    background:#f57c00;
-}
+<div style="background:white;
+padding:20px;
+border-radius:12px;
+box-shadow:0 5px 15px rgba(0,0,0,.08);
+text-align:center;">
+
+<img src="images/frame1.jpg"
+style="width:100%;
+border-radius:10px;">
+
+<h3>Gọng kính thời trang</h3>
+
+<p>
+Nhiều mẫu nam nữ,
+bảo hành chính hãng.
+</p>
+
+</div>
+
+<div style="background:white;
+padding:20px;
+border-radius:12px;
+box-shadow:0 5px 15px rgba(0,0,0,.08);
+text-align:center;">
+
+<img src="images/lens1.jpg"
+style="width:100%;
+border-radius:10px;">
+
+<h3>Tròng kính chống ánh sáng xanh</h3>
+
+<p>
+Lọc ánh sáng xanh,
+bảo vệ mắt khi dùng điện thoại.
+</p>
+
+</div>
